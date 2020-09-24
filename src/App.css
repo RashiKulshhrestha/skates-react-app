@@ -1,0 +1,132 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 224, 224);
+  color: grey;
+}
+
+/* Home */
+.app-container {
+  height: 100vh;
+  width: 90vw;
+  margin-top:10px;
+}
+.grid{
+  margin-top:20px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+/* NavBar */
+nav{
+  width: 1200px;
+}
+.nav-bg-light{
+  background-color: white;
+  border-bottom: 2px solid orangered;
+}
+
+.headerline-1{
+  display: grid;
+  grid-template-columns: 8fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-1-bg-orange{
+  background-color: orangered;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+}
+
+.headerline-2{
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-2-bg-black{
+  background-color:black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+}
+
+/* Sidebar */
+
+.side-bar-main{
+  height: 400px;
+}
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.mainmenu li {
+  padding: 10px;
+}
+.mainmenu li:hover {
+  border-left: 3px solid orangered;
+}
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+  font-style: italic;
+}
+
+.submenu li:hover{
+  color: orangered;
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+}
+
+/* Skate-Card */
+.skate-card-container{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skate-card{
+  display:grid;
+  grid-template-columns: 132px 350px;
+  justify-content: center;
+  align-content: center;
+}
+.card-content{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(168, 167, 167);
+}
+
+img{
+  display: inline;
+}
+
+.skate-h-1{
+  font-size: 20px;
+  color: grey;
+  padding: 20px 0px 0px 10px;
+}
+
+.skate-h-2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: orangered;
+  padding: 20px 0px 0px 100px;
+}
