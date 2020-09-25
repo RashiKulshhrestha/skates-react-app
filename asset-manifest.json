@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/skates-react-app/static/css/main.db162cb9.chunk.css",
+    "main.js": "/skates-react-app/static/js/main.4cf2a565.chunk.js",
+    "main.js.map": "/skates-react-app/static/js/main.4cf2a565.chunk.js.map",
+    "runtime-main.js": "/skates-react-app/static/js/runtime-main.bd532010.js",
+    "runtime-main.js.map": "/skates-react-app/static/js/runtime-main.bd532010.js.map",
+    "static/js/2.255aba3d.chunk.js": "/skates-react-app/static/js/2.255aba3d.chunk.js",
+    "static/js/2.255aba3d.chunk.js.map": "/skates-react-app/static/js/2.255aba3d.chunk.js.map",
+    "index.html": "/skates-react-app/index.html",
+    "precache-manifest.30bb656b7984add9aa422ca5a2900988.js": "/skates-react-app/precache-manifest.30bb656b7984add9aa422ca5a2900988.js",
+    "service-worker.js": "/skates-react-app/service-worker.js",
+    "static/css/main.db162cb9.chunk.css.map": "/skates-react-app/static/css/main.db162cb9.chunk.css.map",
+    "static/js/2.255aba3d.chunk.js.LICENSE.txt": "/skates-react-app/static/js/2.255aba3d.chunk.js.LICENSE.txt",
+    "static/media/ALWWCMP_1.png": "/skates-react-app/static/media/ALWWCMP_1.642c50f1.png",
+    "static/media/rs.php.png": "/skates-react-app/static/media/rs.php.05ab308a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd532010.js",
+    "static/js/2.255aba3d.chunk.js",
+    "static/css/main.db162cb9.chunk.css",
+    "static/js/main.4cf2a565.chunk.js"
+  ]
+}
